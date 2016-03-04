@@ -1,7 +1,28 @@
-var newName = prompt('Enter a letter');
+var colour = prompt('A colour (orange, indigo, etc.)');
 
-var i;
+{
+  document.write(colour + '<br>');
+}
+var creature = prompt('A creature (dragon, moth, etc.)');
 
-for (i = 0; i < 10; i++) {
-  document.write(newName + '<br>');
+{
+  document.write(creature + '<br>');
+}
+var adjective = prompt('An adjective (beautiful, super, etc.)');
+
+{
+  document.write(adjective + '<br>');
+}
+var pastTense = prompt('A past tense verb (ran, burped, etc.)');
+
+{
+  document.write(pastTense + '<br>');
+}
+var story = prompt('Which story would you like?');
+
+{
+  document.write(story + '<br>');
+}
+{
+  document.write(colour + '' + creature + '' + adjective + '' +  pastTense + '' +  story + '<br>');
 }
